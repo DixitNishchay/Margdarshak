@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1067126125050",
+    "firebase_url": "https://margdarshak-43610.firebaseio.com",
+    "project_id": "margdarshak-43610",
+    "storage_bucket": "margdarshak-43610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067126125050:android:9716a084ea59a21d857443",
+        "android_client_info": {
+          "package_name": "com.example.margdarshak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067126125050-i8tp3rlc810ockeh909tej1ua2a4gnec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaSgt59bdatWg1gHEATp9Fshsf9VmDq_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067126125050-i8tp3rlc810ockeh909tej1ua2a4gnec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

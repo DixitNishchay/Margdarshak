@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bhome">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/TVMar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/header2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:background="@drawable/back"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            />-->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/side_menu" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/harlow_solid_italic_italic"
+
+            android:text="@string/margdarshak"
+
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintStart_toEndOf="@+id/appCompatImageView"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints,UnusedAttribute" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="28dp"
+            android:layout_height="31dp"
+            android:layout_marginEnd="20dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/home_notification"
+            android:contentDescription="@string/todo"
+            android:cropToPadding="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/IVcat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/IVexam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1"
+        app:layout_constraintTop_toBottomOf="@id/TVMar"
+        app:srcCompat="@drawable/categories" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/IVexam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/IVsucc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1"
+        app:layout_constraintTop_toBottomOf="@id/IVcat"
+        app:srcCompat="@drawable/exams" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/IVsucc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1"
+        app:layout_constraintTop_toBottomOf="@id/IVexam"
+        app:srcCompat="@drawable/suggestion" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/IVcut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1"
+        app:layout_constraintTop_toBottomOf="@id/IVsucc"
+        app:srcCompat="@drawable/cut" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        app:layout_constraintBottom_toTopOf="@id/Lbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/bot" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Lbar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/bar"
+        android:paddingHorizontal="30dp"
+        android:paddingTop="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/home"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:srcCompat="@drawable/home" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/search"
+            android:layout_width="28dp"
+            android:layout_height="31dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/bookmark"
+            app:layout_constraintStart_toEndOf="@id/home"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/search" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bookmark"
+            android:layout_width="28dp"
+            android:layout_height="31dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/profile"
+            app:layout_constraintStart_toEndOf="@id/search"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bookmark" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/profile"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/profile" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="11dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineStart1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

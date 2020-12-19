@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\background.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "E:\\Margdarshak\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Margdarshak\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_google.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\google.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_o_t_p_varification.xml.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\layout\\activity_o_t_p_varification.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_line.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\line.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bookmark.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\bookmark.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_categories.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\categories.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Margdarshak\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exams.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\exams.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_suggestion.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\suggestion.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_text.xml.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\edit_text.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Margdarshak\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guest.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\guest.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_facebook.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\facebook.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_signup.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\signup.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_resetpassword.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\resetpassword.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_intro.xml.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\layout\\activity_intro.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_verify.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\verify.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\home.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_googlebutton.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\googlebutton.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\font_arial_rounded_mt_bold_4291.ttf.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\font\\arial_rounded_mt_bold_4291.ttf"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Margdarshak\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\login.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Margdarshak\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "E:\\Margdarshak\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\raw_checkbox_animation.json.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\raw\\checkbox_animation.json"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cut.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\cut.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bar.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\bar.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button1.xml.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\button1.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_next.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\next.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\profile.png"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_logo.xml.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\app_logo.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button.xml.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "E:\\Margdarshak\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Margdarshak\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    }
+]

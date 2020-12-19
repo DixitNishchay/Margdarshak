@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Margdarshak</string>
+    <string name="todo">TODO</string>
+    <string name="margdarshak">Margdarshak</string>
+    <string name="already_have_an_account">already have an account?</string>
+    <string name="sign_up">Sign up!</string>
+    <string name="hello">hello,</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="location">Location</string>
+    <string name="i_accept_the_policy_and_terms">I accept the policy and terms</string>
+    <string name="e_mail_phone_no">E-mail/Phone no.</string>
+    <string name="or_signup_with">Or Signup with</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="it_s_easier_to_sign_up_now">it\'s easier to sign up now</string>
+    <string name="welcome_back">Welcome back,</string>
+    <string name="login">Login!</string>
+    <string name="login_2">Login</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="or_login_with">Or Login with</string>
+    <string name="i_don_t_have_an_account">I don\'t have an Account?</string>
+    <string name="i_ll_use_e_mail_or_phone">i\'ll use E-mail or Phone</string>
+    <string name="e_mail">E-mail</string>
+    <string name="phone_no">Phone no.</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="otp">OTP,</string>
+    <string name="verification">Verification</string>
+    <string name="enter_otp_for_verification">Enter OTP for Verification</string>
+    <string name="doesn_t_receive_an_otp">Doesn\'t receive an OTP</string>
+    <string name="resend_otp"><u>Resend OTP</u></string>
+    <string name="let_s">Let\'s,</string>
+
+
+</resources>

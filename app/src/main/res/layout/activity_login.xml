@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="420dp"
+        android:layout_height="800dp"
+        android:background="@drawable/background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineStart1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineEnd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="20dp" />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/arial_rounded_mt_bold_4291"
+        android:text="@string/welcome_back"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd1"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvlogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arial_rounded_mt_bold_4291"
+        android:text="@string/login"
+        android:textColor="#ffffff"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd1"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1"
+        app:layout_constraintTop_toBottomOf="@id/tvWelcome"
+        tools:ignore="RtlHardcoded" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/olTFEmail"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:hint="@string/e_mail_phone_no"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:errorEnabled="true"
+        app:errorIconDrawable="@null"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd1"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1"
+        app:layout_constraintTop_toBottomOf="@id/tvlogin">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/olTFPassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/password"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:endIconMode="password_toggle"
+        app:errorEnabled="true"
+        app:errorIconDrawable="@null"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd1"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1"
+        app:layout_constraintTop_toBottomOf="@id/olTFEmail"
+        tools:ignore="UnknownId">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cLRemember"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd1"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1"
+        app:layout_constraintTop_toBottomOf="@id/olTFPassword">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/cbremember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvRemember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/remember_me"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/cbremember"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvForgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/arial_rounded_mt_bold_4291"
+            android:text="@string/forgot_password"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RtlHardcoded" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/ibLogin"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="35sp"
+        android:background="@drawable/login"
+        android:contentDescription="@string/todo"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd1"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1"
+        app:layout_constraintTop_toBottomOf="@id/cLRemember"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/tvorloginwith"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/or_login_with"
+        app:layout_constraintBottom_toTopOf="@id/llayoutbuttons"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd1"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1" />
+
+    <LinearLayout
+        android:id="@+id/llayoutbuttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/llayouttext"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd1"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivguest"
+            android:layout_width="63dp"
+            android:layout_height="63dp"
+            android:layout_marginRight="10dp"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/guest"
+            tools:ignore="RtlHardcoded, UnusedAttribute" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivgoogle"
+            android:layout_width="63dp"
+            android:layout_height="63dp"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/google"
+            tools:ignore="UnusedAttribute" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivfacebook"
+            android:layout_width="63dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="10dp"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/facebook"
+            tools:ignore="RtlHardcoded, UnusedAttribute" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llayouttext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd1"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1">
+
+        <TextView
+            android:id="@+id/tvdonthave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_an_account"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvsignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:fontFamily="@font/arial_rounded_mt_bold_4291"
+            android:text="Sign up"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pr_Bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd1"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
